@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CURRENT AFFAIRS QUIZ APP</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script defer type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="grid">
+      <!-- MY FIRST CODE -->
+      <div id="quiz-fp" class="quiz-p">
+        <h2>WELCOME, THIS IS A CURRENT AFFAIRS</h2>
+        <p style="color: brown;">
+          DO YOU THINK YOU'RE SMART ENOUGH? IF YES
+        </p>
+        <button id="start-btn" class="btn">CLICK START</button>
+      </div>
+
+      <!-- MY SECOND CODE -->
+      <h1>CURRENT AFFAIRS QUIZ</h1>
+      <div id="qst-cont" class="qst-container hide">
+        <p id="score" class="result">YOU'VE SCORED: 0</p>
+        <h2 id="qsts" class="qst">QUESTIONS</h2>
+        <div id="opt-cont" class="opt-container">
+          <button class="btn" id="a" onclick="checkAnswer(this)">1</button>
+          <button class="btn" id="b" onclick="checkAnswer(this)">2</button>
+          <button class="btn" id="c" onclick="checkAnswer(this)">3</button>
+          <button class="btn" id="d" onclick="checkAnswer(this)">4</button>
+        </div>
+        <button id="nxt-btn" class="next-btn btn">Next Question</button>
+      </div>
+      <!--quiz result-->
+      <div id="quiz-lp" class="quiz-p hide">
+        <h2>BRAVO!!!</h2>
+        <p class="result">HERE IS YOUR SCORES: 0</p>
+      </div>
+    </div>
+  </body>
+</html>
